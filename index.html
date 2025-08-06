@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+  <title>Academic Transcript</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f4f8;
+      margin: 0;
+      padding: 10px;
+    }
+
+    .container {
+      max-width: 100%;
+      margin: auto;
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+
+    .title {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 13px;
+      color: gray;
+      margin-bottom: 15px;
+    }
+
+    .info-box {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+
+    .info-box p {
+      margin: 6px 0;
+    }
+
+    .table-box {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 10px;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+    }
+
+    th, td {
+      padding: 10px 8px;
+      text-align: left;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #f9f9f9;
+      font-weight: bold;
+    }
+
+    .grade {
+      background-color: #eee;
+      padding: 4px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+      display: inline-block;
+    }
+
+    /* Responsive Tweaks */
+    @media (max-width: 600px) {
+      .container {
+        padding: 10px;
+      }
+
+      .info-box {
+        font-size: 13.5px;
+      }
+
+      table {
+        font-size: 13px;
+      }
+
+      th, td {
+        padding: 8px;
+      }
+
+      .grade {
+        padding: 3px 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">Academic Transcript</div>
+    <div class="subtitle">Student Transcript Information</div>
+
+    <div class="info-box">
+      <p><strong>MAZEN MOHAMMED MOHAMMED ALSOUFI</strong></p>
+      <p>Student Number: 202307331</p>
+      <p>Degree: B.Sc. in Computer Engineering</p>
+      <p>Year: 2025/2026</p>
+      <p>Enrollment Status: Enrolled</p>
+      <br>
+      <p><strong>Year Calendar: 2025 - Enrolled ( S1 )</strong></p>
+      <p>Semester: Summer </p>
+      <p>Advisor: DR. FATEMA ABDULQADER ALBALOOOSHI</p>
+      <p>Semester GPA: 4</p>
+      <p>Cumulative GPA: 2.6</p>
+    </div>
+
+    <div class="table-box">
+      <table>
+        <thead>
+          <tr>
+            <th>Course Code</th>
+            <th>Course Description</th>
+            <th>Credits</th>
+            <th>Grading</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MATHS101 </td>
+            <td>Calculus I</td>
+            <td>3</td>
+            <td><span class="grade">A</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
